@@ -22,6 +22,8 @@ html {
     }
 }
 
+/*Mobile First Approach*/
+
 /* home section styles */
 .home-section {
     width: 100%;
@@ -34,10 +36,18 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    position: relative;
+}
+
+.home-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .home-section h1 {
-  font-size: 8em;
+  font-size: 3.5em;
   font-weight: bold;
   text-transform: uppercase;
 }
